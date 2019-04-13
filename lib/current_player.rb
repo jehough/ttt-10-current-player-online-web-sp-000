@@ -3,6 +3,7 @@ def turn_count (board)
   board.each do |location|
     board[location] != " " && board[location] != ""
     counter += 1
+  end
 end
 
 def current_player (board)
